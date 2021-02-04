@@ -5,6 +5,7 @@ Country picker with phone code, flag image and name.
 
 ### Swift Package Manager. 
 Use following link to add package to your project and use latest version for stability.
+
 https://github.com/StebinAlex/SACountryPicker.git
 
 ## Usage 
