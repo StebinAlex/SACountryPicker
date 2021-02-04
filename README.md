@@ -7,14 +7,17 @@ Country picker with phone code, flag image and name.
 Use following link to add package to your project and use latest version for stability.
 
 ## Usage 
+
+Import `SACountryPicker`
+
 Use `SACountryPickerView` for Picker view.
 ```
-let sacv = SACountryPickerView(frame: CGRect(x: 0, y: 0, width: 300, height: 300))
-sacv.center = view.center
-sacv.title = "Select Country"
-sacv.topColor = .systemGreen
-sacv.delegate = self
-self.view.addSubview(sacv) 
+let picker = SACountryPickerView(frame: CGRect(x: 0, y: 0, width: 300, height: 300))
+picker.center = view.center
+picker.title = "Select Country"
+picker.topColor = .systemGreen
+picker.delegate = self
+self.view.addSubview(picker) 
 ```
 use delegate `SACountryPickerViewDelegate`
 for getting clicked country details.
