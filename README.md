@@ -31,7 +31,8 @@ For getting flag image
 ```
 SACountryPicker().imageForCountryCode("IN")
 ```
-
+Sample screenshot
+![Simulator Screen Shot - iPhone 12 - 2021-02-04 at 18 08 18](https://user-images.githubusercontent.com/72264665/106893820-1e486580-6714-11eb-81ec-e9acf8aa9664.png)
 ### Author
 
 Stebin Alex. 
