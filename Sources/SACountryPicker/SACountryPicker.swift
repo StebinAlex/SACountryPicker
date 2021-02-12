@@ -8,8 +8,11 @@
 import UIKit
 
 public class SACountryPicker {
+    
+    public static let shared = SACountryPicker()
 
-
+    public init() {
+    }
 
     private func jsonDataForPath(_ path: String) -> Data? {
         return Bundle.module.path(forResource: path, ofType: "json")?.data(using: .utf8)

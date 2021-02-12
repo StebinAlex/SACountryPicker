@@ -97,6 +97,8 @@ public class SACountryPickerView: UIView {
         searchField.delegate = self
         updateUI()
         tableView.reloadData()
+        
+        
     }
 
     required init?(coder: NSCoder) {
