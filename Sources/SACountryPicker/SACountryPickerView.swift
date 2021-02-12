@@ -97,8 +97,6 @@ public class SACountryPickerView: UIView {
         searchField.delegate = self
         updateUI()
         tableView.reloadData()
-        
-        
     }
 
     required init?(coder: NSCoder) {
@@ -145,7 +143,6 @@ class CountryCell: UITableViewCell {
 
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-
 
         nameLbl.translatesAutoresizingMaskIntoConstraints = false
         nameLbl.font = UIFont.systemFont(ofSize: 12)
