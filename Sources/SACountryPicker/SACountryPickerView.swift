@@ -129,7 +129,6 @@ extension SACountryPickerView: UITableViewDelegate, UITableViewDataSource {
             delegate?.selectedCountry(name: c.countryEn, countryCode: c.countryCode, phoneCode: c.phoneCode)
         }
     }
-
 }
 
 
